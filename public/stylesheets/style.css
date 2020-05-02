@@ -1,0 +1,35 @@
+body {
+    background-color: #48aaad;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 24px;
+}
+h1 {
+    font-size: larger;
+}
+/* style navigation bar */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+/* Style links inside nav bar */
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* change color of links on hover */
+.navigation a:hover {
+    background-color: tomato;
+    color: black;
+}
+/* add color to active link/menu */
+.navigation a.active {
+    background-color: #4caf50;
+    color: white;
+}
